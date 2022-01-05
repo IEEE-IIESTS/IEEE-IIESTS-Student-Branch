@@ -1,10 +1,10 @@
  .u-section-1 {
-  min-height: 1116px;
+  min-height: 978px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
   width: calc(((100% - 1140px) / 2) + 1140px);
-  margin: 0 0 60px auto;
+  margin: 0 0 1px auto;
 }
 
 .u-section-1 .u-layout-cell-1 {
@@ -66,7 +66,8 @@
 .u-section-1 .u-image-1 {
   min-height: 977px;
   background-image: url("images/LRM_EXPORT_82717511010868_20190819_1715296632.jpg");
-  background-position: 50% 50%;
+  background-position: 46.74% 50%;
+  background-size: auto 105%;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -75,7 +76,7 @@
 
 @media (max-width: 1199px) {
    .u-section-1 {
-    min-height: 945px;
+    min-height: 807px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
@@ -102,7 +103,7 @@
 
 @media (max-width: 991px) {
    .u-section-1 {
-    min-height: 756px;
+    min-height: 618px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
@@ -130,7 +131,7 @@
 
 @media (max-width: 767px) {
    .u-section-1 {
-    min-height: 1231px;
+    min-height: 1093px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
@@ -158,7 +159,7 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 864px;
+    min-height: 726px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
