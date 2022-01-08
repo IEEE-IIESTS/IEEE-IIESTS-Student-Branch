@@ -3,9 +3,13 @@
   bottom: 10px;
 }
 
-.u-block-e526-3 {
+.u-block-e526-5 {
   position: absolute;
   left: 0;
+  width: 65px;
+  height: 65px;
+  top: 228px;
+  right: auto;
 }
 
 .u-block-e526-4 {
@@ -41,7 +45,7 @@
 }
 
  .u-section-1-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/wp7440083.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/wp7440083.webp");
   background-position: 50% 50%;
 }
 
@@ -110,7 +114,7 @@
 }
 
  .u-section-1-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/Layer1.png");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/Layer1.webp");
   background-position: 50% 50%;
 }
 
@@ -217,7 +221,7 @@
 .u-section-1-2 .u-btn-1.u-btn-1.u-btn-1.hover {
   box-shadow: 2px 2px 8px 0 rgba(128,128,128,1) !important;
 } .u-section-2 {
-  background-image: url("images/imageedit_1_8635350278.png?rand=426c");
+  background-image: url("images/imageedit_1_8635350278.webp");
   background-position: 50% 50%;
 }
 
@@ -319,7 +323,7 @@
     min-height: 239px;
   }
 } .u-section-3 {
-  background-image: url("images/image.png");
+  background-image: url("images/image.webp");
   background-position: 50% 50%;
 }
 
@@ -420,7 +424,7 @@
     padding-right: 10px;
   }
 } .u-section-4 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url("images/pexelsphoto3815759.jpeg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url("images/pexelsphoto3815759.webp");
   background-position: 50% 50%;
 }
 
