@@ -1,7 +1,7 @@
 .u-section-1 .u-sheet-1 {
   min-height: 94px;
 } .u-section-2 {
-  background-image: url("images/WhatsAppImage2022-01-08at11.19.01.webp");
+  background-image: url("../images/WhatsAppImage2022-01-08at11.19.01.webp");
   background-position: 50% 50%;
 }
 
@@ -665,7 +665,7 @@
 .u-section-4 .u-image-1 {
   width: 225px;
   height: 225px;
-  background-image: url("images/MSGee.webp");
+  background-image: url("../images/MSGee.webp");
   background-position: 50% 50%;
   margin: 0 auto;
 }
