@@ -1,0 +1,24 @@
+{
+  "name": "ieee-iiests-student-branch",
+  "version": "1.0.0",
+  "description": "This is the official GitHub account for IEEE Student Chapter for Indian Institute of Engineering Science and Technology, Shibpur (IIESTS). Our website has been developed here.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IEEE-IIESTS/IEEE-IIESTS-Student-Branch.git"
+  },
+  "author": "Diptarka Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IEEE-IIESTS/IEEE-IIESTS-Student-Branch/issues"
+  },
+  "homepage": "https://github.com/IEEE-IIESTS/IEEE-IIESTS-Student-Branch#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
