@@ -10,6 +10,12 @@ app.get("/", function (req, res) {
 app.get("/underCons", function (req, res) {
     res.render("under-construction/Under-Construction");
 })
+app.get("/join", function (req, res) {
+    res.render("Join-Us/Join-Us");
+})
+app.get("/team", function (req, res) {
+    res.render("Our-Team/Our-Team");
+})
 
 app.listen(3000, function () {
     console.log("Server has started on port 3000");
