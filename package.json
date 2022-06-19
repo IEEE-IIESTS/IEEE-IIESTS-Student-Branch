@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
+    "begin":"nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,10 +17,11 @@
   "bugs": {
     "url": "https://github.com/IEEE-IIESTS/IEEE-IIESTS-Student-Branch/issues"
   },
-  // "homepage": "https://github.com/IEEE-IIESTS/IEEE-IIESTS-Student-Branch#readme",
   "dependencies": {
     "ejs": "^3.1.6",
-    "express": "^4.17.2",
-    "nodemon": "^2.0.15"
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
