@@ -5,8 +5,7 @@ app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 
 app.get("/", function (req, res) {
-  // res.render("Home/Home");
-  res.render("Events/Events");
+  res.render("Home/Home");
 });
 app.get("/underCons", function (req, res) {
   res.render("Under-Construction/Under-Construction");
