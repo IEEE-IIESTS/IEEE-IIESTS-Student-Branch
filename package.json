@@ -4,6 +4,7 @@
   "description": "This is the official GitHub account for IEEE Student Chapter for Indian Institute of Engineering Science and Technology, Shibpur (IIESTS). Our website has been developed here.",
   "main": "app.js",
   "scripts": {
+    "deploy":"npm run start && gh-pages -d dist -b develop",
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

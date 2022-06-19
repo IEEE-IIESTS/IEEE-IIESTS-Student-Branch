@@ -1,28 +1,28 @@
-var express = require('express'),
-    app = express();
+var express = require("express"),
+  app = express();
 
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 
 app.get("/", function (req, res) {
-    res.render("Home/Home");
-})
+  res.render("Home/Home");
+});
 app.get("/underCons", function (req, res) {
-    res.render("Under-Construction/Under-Construction");
-})
+  res.render("Under-Construction/Under-Construction");
+});
 app.get("/join", function (req, res) {
-    res.render("Join-Us/Join-Us");
-})
+  res.render("Join-Us/Join-Us");
+});
 app.get("/team", function (req, res) {
-    res.render("Our-Team/Our-Team");
-})
+  res.render("Our-Team/Our-Team");
+});
 app.get("/events", function (req, res) {
-    res.render("Events/Events");
-})
+  res.render("Events/Events");
+});
 app.get("*", function (req, res) {
-    res.render("Under-Construction/Under-Construction");
-})
+  res.render("Under-Construction/Under-Construction");
+});
 
-app.listen(3000, function () {
-    console.log("Server has started on port 3000");
-})
+app.listen(process.env.PORT || 3000, function () {
+  console.log("Server has started on port 3000");
+});
